@@ -1,0 +1,176 @@
+
+/*
+selector{ 
+    property: value;
+    property: value;
+}
+
+Universal selector
+*{
+    Property: value;
+}
+*/
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #001C53;
+}
+
+
+
+.nav {
+    overflow: hidden;
+    background-color: black;
+    padding-right: 20%;
+}
+.nav a{
+    float: left;
+}
+
+.nav__links {
+    list-style-type: none;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-family: "Poiret_One";
+    background-color: #fcc655;
+
+}
+
+.logo {
+    float: left;
+    padding-left: 30px;
+}
+.searchbar{
+    float : right;
+    position:absolute;
+    left: 70%;
+    top: 6%;
+}
+/* products */
+.img {
+    padding-bottom: 50px;
+
+;
+}
+
+h1{ 
+    font-family: "Enchanted Land";
+    color: #fcc655;
+    font-size:  50px;
+}
+
+h2 {
+    color: #fcc655;
+    text-align: center;
+}
+
+.h3 {
+    text-align: center;
+    color:#fcc655;
+    font-family: "Poiret_One";
+}
+
+p{
+    color: #fff;
+    font-family: "Roboto";
+    
+}
+
+footer{
+    background-color: black;
+}
+
+.footer_img{
+    padding: 20px;
+}
+
+.shop{
+    padding-top: 10%;
+}
+
+.para1 {
+padding-left: 60%;
+padding-right: 10%;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.para2 {
+padding-right: 50%;
+padding-left: 10%;
+padding-top: 50px;
+padding-bottom: 30px;
+}
+.para3 {
+    padding-left: 60%;
+    padding-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 30px;
+    }
+
+/* div{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-right: 70px;
+} */
+.ingredients{
+    float: left;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+.prince{
+    float: right;
+    padding-right: 10%;
+
+}
+.fgm{
+    padding-left: 10%;
+    float: left;
+    padding-top: 1.5%;
+}
+div{
+    overflow: hidden;
+}
+.contshop{
+    float: center;
+    padding-top: 20px;
+}
+.footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.button{
+    float : right;
+    position: absolute;
+    left: 80%;
+    top: 6%;
+}
+
+.productpos{
+    padding-top: 50px;
+    float: center;
+}
+
+.backaddbut{
+    padding-top: 20px;
+}
+.checkout{
+    float: right;
+    padding-top: 20px;
+    padding-right: 10%;
+}
+.italic{
+    font-family: "Roboto";
+    font-style: italic;
+}
+
